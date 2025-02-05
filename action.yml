@@ -27,7 +27,7 @@ runs:
   using: "composite"
   steps:
     - name: "Set up OCaml"
-      uses: ocaml/setup-ocaml@v2
+      uses: ocaml/setup-ocaml@v3
       with:
         ocaml-compiler: ${{ inputs.ocaml-compiler }}
         cache-prefix: ${{ inputs.cache-prefix }}
